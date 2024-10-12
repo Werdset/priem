@@ -17,7 +17,7 @@ from ql import Application, get_db  # Импортируем модели из �
 logging.basicConfig(level=logging.INFO)
 
 # Токен вашего бота
-API_TOKEN = "7506864514:AAEhAFxLmiBu9X-kkMoJMzZVe5urj0O07MQ"
+API_TOKEN = ""
 
 # Создаем объекты бота и диспетчера
 bot = Bot(token=API_TOKEN)
@@ -25,7 +25,7 @@ storage = MemoryStorage()
 dp = Dispatcher()
 
 # Менеджер, который будет получать заявки (укажите его Telegram ID)
-MANAGER_CHAT_ID = '1167452253'
+MANAGER_CHAT_ID = ''
 
 
 # Состояния FSM
